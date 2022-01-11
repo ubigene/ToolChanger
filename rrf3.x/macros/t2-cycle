@@ -1,0 +1,8 @@
+; Cycle T2 tool
+M98 P"/sys/tpre2.g"
+M98 P"/sys/tfree2.g"
+
+;Raise the bed
+G91
+G1 Z-14 F1000
+G90

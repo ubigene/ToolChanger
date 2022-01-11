@@ -1,0 +1,8 @@
+; Cycle T1 tool
+M98 P"/sys/tpre1.g"
+M98 P"/sys/tfree1.g"
+
+;Raise the bed
+G91
+G1 Z-14 F1000
+G90
